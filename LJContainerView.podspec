@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.11'  
   s.requires_arc = true  
   s.source           = { :git => "https://github.com/ChatCoding/LJContainerView.git", :tag => s.version.to_s }  
-  s.source_files = "LJContainerView/*"
+  s.source_files = 'LJAvatarBrowser/*' 
   
   s.frameworks = "Foundation", "UIKit"
 
